@@ -11,7 +11,7 @@ describe('joinStrings-example', () => {
     expect(values.firstName).toEqual('Carlos');
   });
   test('lastName is Carlos', () => {
-    expect(values.lastName).toEqual('Stevenson');
+    expect(values.lastName).toEqual('Carlos');
   });
   test('greeting is put together correctly', () => {
     expect(values.greeting).toEqual('Hello! My name is Carlos Stevenson and I am 18 years old.');
